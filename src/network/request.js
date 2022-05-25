@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export function request(config){
   const axiosInstance = axios.create({
-    baseURL: 'http://127.0.0.1/api/m5',
+    baseURL: 'http://172.16.60.136/api/m5',
     timeout: 5000
   })
 
